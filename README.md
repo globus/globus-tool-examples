@@ -40,7 +40,7 @@ a742210c-17ad-11eb-893e-0a5521ff3f4b | petrel@globusid.org | ticket349455 petrel
 ```
 
 #### Permission migration
-When all files are copied to the new endpoint, you must copy all Globus permissions to the new endpoint. The `migrate_permissions.py` scripts copies all Globus permissions from one endpoint to another:
+When all files are copied to the new endpoint, you must copy all Globus permissions to the new endpoint. The `migrate_permissions.py` script copies all Globus permissions from one endpoint to another:
 ```
 (venv) $ python migrate_permissions.py -s <source_endpoint_UUID> -d <destination_endpoint_UUID> [-p <prefix>]
 ```
